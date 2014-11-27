@@ -25,3 +25,25 @@ body{
   float:none;
   margin-right:-4px;
 }
+.thumbnails img{
+  width:100%;
+}
+.gridStyles{
+  width:940px;
+  height:300px;
+}
+.ngRow.even {
+  background: AliceBlue;
+}
+.ngRow.odd {
+  background: YellowGreen;
+}
+.modal-body input{
+  display:block;
+}
+.ng-valid{
+  border: thin solid #090;
+}
+.ng-invalid{
+  border: thin solid #990000;
+}

@@ -8,10 +8,18 @@
  * Controller of the h1App
  */
 angular.module('h1App')
-  .controller('ArticlesCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+.controller('ArticlesCtrl', function ($scope) {
+	$scope.posts = [
+	{
+		title:'Almonds are good for Health',
+		content:'Almonds contain high amounts of HDL which helps reduce cholestrol.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Vivamus rhoncus quam leo, id tristique sapien viverra eu. Maecenas ipsum lectus, suscipit auctor tristique in, venenatis ut nisl. Quisque eget bibendum libero. Nam nec mi augue.'
+	},
+	{
+		title:'Sugar is bad for health',
+		content:'Sugar besides being bad for diabetes, it also causes overweight and obesity problems. Lorem ipsum dolor sit amet,consectetur adipiscing elit. Vivamus rhoncus quam leo, id tristique sapien viverra eu. Maecenas ipsum lectus, suscipit auctor tristique in.'
+	},
+	{
+		title:'Cut down your carbs!!!',
+		content:'Sugar besides being bad for diabetes, it also causes overweight and obesity problems.Lorem ipsum dolor sit amet,consectetur adipiscing elit. Vivamus rhoncus quam leo, id tristique sapien viverra eu. Maecenas ipsum lectus, suscipit auctor tristique in, venenatis ut nisl. Quisque eget bibendum libero. Nam nec mi augue.'
+	} ];
+});

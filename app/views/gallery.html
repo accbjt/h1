@@ -1,0 +1,9 @@
+<h1>Gallery</h1>
+<div class='thumbnails'>
+	<div class='col-md-4' ng-repeat='pic in pictures'>
+		<h3>{{pic.title}}</h3>
+		<img ng-src='{{pic.url}}'/>
+		<rating ng-model="rate" max="max" readonly="isReadonly" ></rating>
+		<p>{{pic.summary}}</p>
+	</div>
+</div>
